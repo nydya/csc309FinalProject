@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="momentoEdit.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+        <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    </head>
+    <body>
+            <nav class="navbar" role="navigation" aria-label="main navigation">
+                    <div class="navbar-brand">
+                        <a class="navbar-item" href="../home/homeglobe.html">
+                        <img src="../home/logo.png" width="112" height="28">
+                        </a>
+                    
+                        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        </a>
+                    </div>
+                    
+                    <div id="navbarBasicExample" class="navbar-menu">
+                        <div class="navbar-start">
+                        <a class="navbar-item" href="../explore/explore.html">
+                            Explore
+                        </a>
+                    
+                        <a class="navbar-item">
+                            My Account
+                        </a>
+                        </div>
+                    
+                        <div class="navbar-end">
+                        <div class="navbar-item">
+                            <div class="buttons">
+                            <a class="button is-primary" href="../home/homeglobe.html">
+                                <strong>Sign up</strong>
+                            </a>
+                            <a class="button is-light" href="../home/homeglobe.html">
+                                Log in
+                            </a>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </nav>
+        <!-- header -->
+        <!-- this part is from the planner -->
+        <!-- not changable in here -->
+        <div id="header">
+            <div id="route">
+                <a class="hA" href="#whole">TripName: </a>
+                <a class="hA" href="#city1Jump">City 1</a>
+                ----->
+                <a class="hA" href="#city2Jump">City 2</a>
+                ----->
+                <a class="hA" href="#city3Jump">City 3</a>
+            </div>
+        </div>
+
+        <!-- for the whole trip -->
+        <div id="whole">
+            <div class="picContainer">
+                <h1 class="wholeHeader" contentEditable="true">Trip To Citys</h1>
+                <img src="gratisography-mountain-peaks.jpg" class="wholePic">
+            </div>
+
+                <p class="dText">
+                    <textarea id="wholeText" rows="20" cols="130" placeholder="How is your trip?"></textarea>
+                </p>
+  
+        </div>
+
+        <div id="city1Jump"></div>
+        
+        <br>
+        <br>
+        <br>
+
+        <div id="city1">
+            <div class="leftBar">
+                <div class="nameIcon">
+                    <h1 class="cityName">CITY1</h1>
+                    <img src="ticon.jpg" class="iconM">
+                </div>
+            </div>
+
+
+            <p class="dText">
+                    <textarea id="city1Text" rows="20" cols="130" placeholder="How is your trip in City1?"></textarea>
+            </p>
+        </div>
+
+        
+        <div id="city2Jump"></div>
+        
+        <br>
+        <br>
+        <br>
+
+        <div id="city2">
+            <div class="leftBar">
+                <div class="nameIcon">
+                    <h1 class="cityName" >CITY2</h1>
+                    <img src="c2.jpg" class="iconM">
+                </div>
+            </div>
+
+
+            <p class="dText">
+                    <textarea id="city2Text" rows="20" cols="130" placeholder="How is your trip in City2?"></textarea>
+            </p>
+        </div>
+
+        
+        <div id="city3Jump"></div>
+        
+        <br>
+        <br>
+        <br>
+
+        <div id="city3">
+            <div class="leftBar">
+                <div class="nameIcon">
+                    <h1 class="cityName">CITY3</h1>
+                    <img src="c3.jpg" class="iconM">
+                </div>
+            </div>
+
+
+            <p class="dText">
+                    <textarea id="city3Text" rows="20" cols="130" placeholder="How is your trip in City3?"></textarea>
+            </p>
+        </div>
+        <br>
+        <br>
+        <a href="../momentopage/momentoI.html">
+            <button id="saveButton">
+                save
+            </button>
+        </a>
+        <br>
+        <br>
+
+        <!-- <script type="text/javascript" src="momentoEdit.js"></script> -->
+    </body>
+</html>

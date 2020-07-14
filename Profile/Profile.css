@@ -1,0 +1,170 @@
+body {
+	height: 100%;
+	background-color: white;
+	margin: 0;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+
+html {
+	height: 100%;
+}
+
+.curLogo {
+	width: 210px; 
+	position: relative;
+}
+
+p {
+	margin: 20px;
+	margin-left: 0px;
+}
+
+h2{
+	text-align: center;
+}
+
+h1 {
+	font-size: 250%;
+	color: white;
+	margin: 0px 10px; 
+	display:inline;
+	position: relative;
+	top: 7px;
+}
+
+#signiu {
+	margin-top: 20px;
+	margin-right: 10px;
+	display:inline;
+	float: right;
+	font-size:90%
+}
+
+#header {
+	background-color: gray;
+	height: 8%;
+}
+
+#topNavBar {
+	background-color: black;
+	height: 4%;
+}
+
+#topNavBar ul {
+	padding: 5px;
+	margin: 0px;
+}
+
+#topNavBar ul li {
+	list-style: none; /* No bullet points */
+	display: inline;
+}
+
+#backImg {
+	background-image: url("x.jpg");
+	
+	height: 88%;
+	
+	filter: blur(8px);
+	
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#profilePage {
+	background-color: white;
+	border-radius: 25px;
+	font-weight: bold;
+	/*white 3px solid border*/
+	border: 3px solid #f1f1f1;
+	position: absolute;
+	top: 20%;
+	left: 10%;
+	padding: 20px;
+	
+	height:65%;
+	width:80%;
+}
+
+#profilePic {
+	position:absolute;
+	margin-left: 10px;
+	margin-top: 20px;
+	
+}
+
+#personalInfo {
+	position:absolute;
+	margin-left: 300px;
+	margin-top: 20px;
+	border: solid 1px black;
+	height: 87%;
+	text-align:center;
+}
+
+#changeInfo {
+	position:absolute;
+	margin-left: 600px;
+	margin-top: 20px;
+	border: solid 1px black;
+	height: 87%;
+	text-align:center;
+}
+
+#username {
+	position:absolute;
+	margin-left: 70px;
+	margin-top: 230px;	
+}
+
+#sideBar {
+	position:absolute;
+	margin-left: 10px;
+	margin-top: 270px;
+	
+}
+
+#sideBar ul li{
+	margin-bottom: 30px;
+	list-style-type: none;
+}
+
+.sideOpt{
+	color:black;
+	font-size:150%;
+	text-decoration: none;
+}
+
+.profImg {
+	border-radius: 50%;
+	width:200px;
+	border: solid white;
+}
+
+.navButton {
+	text-decoration: none;
+	padding: 10px;
+	margin-left: 20px;
+	color: white;
+}
+
+.navButton:hover  {
+	color: Gold;
+	text-decoration: none;
+	padding: 10px;
+}
+
+.button1:hover {
+  box-shadow: 0 8px 10px 0 rgba(0,0,0,0.24), 0 10px 35px 0 rgba(0,0,0,0.19);
+}
+
+#imgUpdate {
+	position:absolute;
+	margin-left: 70%;
+	margin-top: 20px;
+	border: solid 1px black;
+	height: 87%;
+	width:25%;
+	text-align:center;
+}

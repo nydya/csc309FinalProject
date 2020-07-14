@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>(USER NAME HERE)'s Scheduler</title>
+    <link rel="stylesheet" type="text/css" href="scheduler.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+</head>
+
+<body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="../home/homeglobe.html">
+                <img src="../assets/logo.png" width="112" height="28">
+            </a>
+
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+                data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item" href="../explore/explore.html">
+                    Explore
+                </a>
+                <a class="navbar-item" href="../my profile/profile.html">
+                    My Account
+                </a>
+            </div>
+
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="buttons">
+                        <a class="button is-primary" href="../home/homeglobe.html">
+                            <strong>Sign up</strong>
+                        </a>
+                        <a class="button is-light" href="../home/homeglobe.html">
+                            Log in
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="footer"> </div>
+    <div class="columns">
+        <div class="column is-one-fifth">
+            <aside class="menu">
+                <figure class="image container">
+                    <img src="https://bulma.io/images/placeholders/128x128.png">
+                </figure>
+                <ul class="menu-list">
+                    <li><a class="button has-text-left" href="../my profile/profile.html">Profile</a></li>
+                    <li><a class="button has-text-left is-info" href="../scheduler/scheduler.html">Scheduler</a></li>
+                    <li><a class="button has-text-left" href="../trips/trips.html">My trips</a></li>
+                    <li><a class="button has-text-left" href="">Settings</a></li>
+                    <li><a class="button has-text-left" href="">Manage Database</a></li>
+                </ul>
+            </aside>
+        </div>
+        <div class="column">
+
+            <div class="box">
+                <h1 class="title">
+                    Step 1:
+                </h1>
+                <h2 class="subtitle">Select length of trip</h2>
+                <label for="start">Start date:</label>
+                <input type="date" id="start" name="trip-start" value="2018-07-22" min="2018-01-01"
+                    max="2018-12-31"><br>
+                <br>
+                <label for="end">End date:</label>
+                <input type="date" id="end" name="trip-end" value="2018-07-22" min="2018-01-01" max="2018-12-31"><br>
+                <article class="message is-danger is-small">
+                    <div class="message-body">
+                        Invalid date
+                    </div>
+                </article>
+                <div class="button is-primary"> Confirm </div>
+
+            </div>
+            <div class="box">
+                <h1 class="title">
+                    Step 2:
+                </h1>
+                <h2 class="subtitle">Select your <b> places</b> </h2>
+
+                <table class="table">
+
+                    <thead>
+                        <tr>
+                            <th> Select </th>
+                            <th>City</th>
+                            <th>Remove</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><input type="checkbox"></td>
+                            <td> <a href=""> Toronto </a> </td>
+                            <td><a class="delete"></a></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox"></td>
+                            <td> <a href=""> Ottawa </a> </td>
+                            <td><a class="delete"></a></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="button is-primary"> Confirm </div>
+                <article class="message is-danger is-small">
+                    <article class="message is-danger is-small">
+                        <div class="message-body">
+                            You didn't select any <b>places!</b>
+                        </div>
+                    </article>
+                    <div class="message-body">
+                        You do not have any <b> places </b> in your wishlist. Add <b> places</b> by marking a city with
+                        a heart.
+                    </div>
+                </article>
+            </div>
+            <div class="box">
+
+                <h1 class="title">
+                    Step 3:
+                </h1>
+                <h2 class="subtitle">Order your <b> places</b> and indicate minimum duration of stay (days) for each
+                    <b>place</b></h2>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th> Order </th>
+                            <th>City</th>
+                            <th>Minimum duration of stay</th>
+                            <th>Remove</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td> <input class='input' type="text" placeholder="1"> </td>
+                            <td> <a href=""> Toronto </a> </td>
+                            <td> <input class='input' type="text" placeholder="duration of stay"> </td>
+                            <td><a class="delete"></a></td>
+                        </tr>
+                        <tr>
+                            <td> <input class='input' type="text" placeholder="2"> </td>
+                            <td> <a href=""> Ottawa </a> </td>
+                            <td>
+                                <input class='input' type="text" placeholder="duration of stay">
+                            </td>
+                            <td><a class="delete"></a></td>
+                        </tr>
+                        <tr>
+                            <td> <label class="label"> Name of trip: </label></td>
+                            <td> <input class='input' type="text" placeholder="Untitled"></td>
+                        </tr>
+
+                    </tbody>
+                </table>
+
+                <a class="button is-primary" href=""> Create your trip!</a>
+                <article class="message is-danger is-small">
+                    <div class="message-body">
+                        You didn't select any <b>places!</b>
+                    </div>
+                </article>
+                <article class="message is-danger is-small">
+                    <div class="message-body">
+                        You didn't indicate minimum duration of stay (days) for each <b>place</b>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="scheduler.js"></script>
+</body>
+
+</html>

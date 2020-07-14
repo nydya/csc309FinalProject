@@ -1,0 +1,35 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+#chartdiv {
+  width: 100%;
+  height: 700px;
+  overflow: hidden;
+}
+
+div.footer {
+   height: 3px;
+   padding: 0;
+}
+
+.map-marker {
+    /* adjusting for the marker dimensions
+    so that it is centered on coordinates */
+    margin-left: -8px;
+    margin-top: -8px;
+    cursor: pointer;
+}
+
+.pulse {
+    width: 10px;
+    height: 10px;
+    border: 5px solid #f7f14c;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    background-color: #716f42;
+    z-index: 10;
+    position: absolute;
+  }
+

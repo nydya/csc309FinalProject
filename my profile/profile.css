@@ -1,0 +1,18 @@
+div.footer {
+   height: 3px;
+   padding: 0;
+}
+
+article.tile.is-child.box {
+   padding: 0;
+}
+
+figure.image.container {
+   width: 100%;
+}
+
+div.button {
+   position: absolute;
+   right: 0;
+   bottom: 0;
+}

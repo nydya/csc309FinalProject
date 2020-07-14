@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Explore</title>
+        <link rel="stylesheet" type="text/css" href="explore.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+        <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    </head>
+<body>
+<script>src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"</script> 
+<script type="text/javascript" src="explore.js"></script>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+		<div class="navbar-brand">
+			<a class="navbar-item" href="../home/homeglobe.html">
+			<img src="logo.png" width="112" height="28">
+			</a>
+		
+			<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+			<span aria-hidden="true"></span>
+			<span aria-hidden="true"></span>
+			<span aria-hidden="true"></span>
+			</a>
+		</div>
+		
+		<div id="navbarBasicExample" class="navbar-menu">
+			<div class="navbar-start">
+			<a class="navbar-item" href="../explore/explore.html">
+				Explore
+			</a>
+		
+			<a class="navbar-item" href="../profile/profile.html">
+				My Account
+			</a>
+			</div>
+		
+			<div class="navbar-end">
+			<div class="navbar-item">
+				<div class="buttons">
+				<a class="button is-primary" href="../home/homeglobe.html">
+					<strong>Sign up</strong>
+				</a>
+				<a class="button is-light" href="../home/homeglobe.html">
+					Log in
+				</a>
+				</div>
+			</div>
+			</div>
+		</div>
+		</nav>
+
+<div id="containers">
+    <div class="searchContainer">
+        <form action="/action_page.php">
+        <input type="text" placeholder="Search.." name="search">
+        <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+        <!-- <button class="advancedBtn"> More options </button>
+        
+        <div class="more">
+            <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+            <button class="btn" onclick="filterSelection('europe')"> Europe</button>
+            <button class="btn" onclick="filterSelection('asia')"> Asia</button>
+            <button class="btn" onclick="filterSelection('africa')"> Africa</button>
+            <button class="btn" onclick="filterSelection('america')"> Asia</button>
+            <button class="btn" onclick="filterSelection('oceania')"> Oceania</button>  
+        </div> -->
+    </div>
+</div>
+
+<div class="wrapper">
+    <div class="parent america" onclick="location.href = '../citypage/citypage.html'">
+        <div class="child bg-one">
+            <a class="pages" href="../citypage/citypage.html">Toronto</a>
+        </div>
+    </div>
+
+    <div class="parent europe" onclick="">
+        <div class="child bg-two">
+            <a class="pages" href="#">London</a>
+        </div>
+    </div>
+
+    <div class="parent america" onclick="">
+        <div class="child bg-three">
+            <a class="pages" href="#">New York</a>
+        </div>
+    </div>
+
+    <div class="parent america" onclick="">
+        <div class="child bg-four">
+            <a class="pages" href="#">Hollywood</a>
+        </div>
+    </div>
+
+    <div class="parent asia" onclick="">
+        <div class="child bg-five">
+            <a class="pages" href="#">Dubai</a>
+        </div>
+    </div>
+
+    <div class="parent america" onclick="">
+        <div class="child bg-six">
+            <a class="pages" href="#">Los Angeles</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+

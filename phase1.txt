@@ -1,0 +1,54 @@
+Team 6
+
+user: username: user, password: user and email: user@hotmail.com
+admin: username: admin, password: admin and email: admin@hotmail.com
+
+
+
+The index.html, which is our landing page is located in the landing folder in order to ensure cleanness for the repository.
+
+The first page, our landing page, is a slideshow of images which can be navigated with scrolling. Clicking anywhere will redirect the user to the home page.
+
+The home page consist of log in/sign up and the globe.
+The sign up and log in are toggles so that the user can choose to sign in/log in or choose not to. 
+Furthurmore click and drag can rotate the globe. Clicking on a point(city) will lead to the city page. 
+(Currently only London and Tokyo leads to the city page as there're too many points)
+
+On the top you will see the logo, explore, my Account and sign up, Log in.
+As mentioned previously sign up/Log in is a toggle, but in other pages, this links the user back to the home page, because that is where you can sign up/log in
+The my Account links to the profile, however you can only click on it once you have successfully logged in. (for other pages, it directly links to user profile page)
+	(credentials are at the top and the same as indicated by the instructions, admin credentials leads to admin page and user credentials lead to user page)
+The logo links the user back to the home page.
+The explore links to the search page.
+
+If you log in with wrong user/password, then it will display an error.
+If you sign up with a already in use user/email, then it will display an error.
+
+The search page is a search bar with recommendations.
+Clicking on the Toronto box will lead to the city page.
+
+By logging in with the admin credentials and clicking My Account, it will lead you to the admin page.
+This page is a template for the style we're going to use on user page, however due to time constraints of tests and assignments, were not able to complete the style for the user pages.
+The admin only has an extra functionality called Transportation Update, where they can update the server side data for transportation.
+	The other functionality is managing users by removing inappropriate things from sight, however we need server side data to allow the admin to see user management on all pages.
+By clicking My Profile you'll reach the profile page.
+
+The user profile page demonstrates that it doesn't have the Transportation Update functionality like the admin.
+It pulls server side data to populate the user's data, and allow the user to change said data to their liking. (for instance what name to display to others, updating icon, etc)
+
+The Trip Scheduler is the main function, where the user can pick a start and end date for their trip, the cities to visit and the length of stay for each city. 
+When they click Plan My Trip (currentPlan page), we will pull data from the server and generate a list of recommendations. 
+Afterwards, they can save the plan as a momento if they choose to. (clicking on Save My Plan redirects to the momento page)
+
+My Plans keeps a record of the user's plans, so they can go back to check on it when they want.
+The entry leads to the currentPlan page.
+
+Momentos is the same as My Plans, but instead a list of momentos which they can view.
+The entry leads to the MomentoI page.
+
+The city page is a page about the citys information. 
+By clicking, you'll get some popular destinations in the city, and clicking on the bottom left will save the city as a destination for the user, so they can later select it for Trip Scheduler.
+At the end are other people's momentos of the said city, so the user can see if there's any spots that interest them.
+
+The momento page is just a user created record of their trip to serve as a momento of said trip. 
+We will give them the template, and they can fill out their experiences of said trip, if they choose to create said momento.

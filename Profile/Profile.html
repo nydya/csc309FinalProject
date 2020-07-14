@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Profile</title>
+		<link rel="stylesheet" type="text/css" href="Profile.css">
+	</head>
+	<body>
+		<div id="header">
+			<img class='curLogo' src="logo.png" />
+			<a id ="signiu" style="color:black" href="../home/homeglobe.html"> <b> Log in </b> Sign up </a>
+		</div>
+		<div id="topNavBar">
+			<ul>
+				<li> <a class="navButton" href="../home/homeglobe.html">Home</a> </li>
+				<li> <a class="navButton" href="../explore/explore.html">Explore</a> </li>
+			</ul>
+		</div>
+		<div id="backImg"></div>
+		<div id="profilePage">
+			<div id="profilePic"><img class='profImg' src='No4.jpg'> </div>
+			<p id="username"> Username</p>
+			<div id="sideBar"> 
+				<ul>
+					<li> <a class="sideOpt" href="Profile.html">My Profile</a> </li>
+					<li> <a class="sideOpt" href="TripScheduler.html">Trip Scheduler</a> </li>
+					<li> <a class="sideOpt" href="MyPlan.html">My Plans</a> </li>
+					<li> <a class="sideOpt" href="MyMomentos.html">Momentos</a> </li>
+				</ul>
+			</div>
+			<div id="personalInfo">
+				<h3> Personal Info</h3>
+				<!-- Get user data from server  -->
+
+				<p class="sideOpt" >Username: username</a> 
+				<p class="sideOpt" >Nickname: username</a> 
+				<p class="sideOpt" >Email: mail</a> 
+				<p class="sideOpt" >Password: ******</a> 
+				<p class="sideOpt" >Momentos: ?</a> 
+			</div>
+			<div id="changeInfo">
+				<h3> Update Info</h3>
+				<p> Change Nickname: </p>
+				<input id='nickname' type="text" placeholder="new nickname">
+				<input id='changenn' type="submit" value="Submit">
+				<br/>
+				<p> Change Email: </p>
+				<input id='mail' type="text" placeholder="new Email">
+				<input id='changem' type="submit" value="Submit">
+				<p> Change Password: </p>
+				<input id='password' type="text" placeholder="new password">
+				<input id='changep' type="submit" value="Submit">
+			</div>
+			<div id="imgUpdate">
+				<h3> Update Profile Picture</h3>
+				<div id="profilePic2"><img class='profImg' src='No4.jpg'> </div>
+				<input id='changeimg' type="submit" value="Submit">
+			</div>
+		</div>
+		
+	</body>
+</html>

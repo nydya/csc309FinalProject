@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+	<link rel="stylesheet" type="text/css" href="homeglobe.css">
+	<link rel="stylesheet" type="text/css" href="LogIn.css">
+</head>
+
+<body>
+	<nav class="navbar" role="navigation" aria-label="main navigation">
+		<div class="navbar-brand">
+			<a class="navbar-item" href="homeglobe.html">
+			<img src="logo.png" width="112" height="28">
+			</a>
+		
+			<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+			<span aria-hidden="true"></span>
+			<span aria-hidden="true"></span>
+			<span aria-hidden="true"></span>
+			</a>
+		</div>
+		
+		<div id="navbarBasicExample" class="navbar-menu">
+			<div class="navbar-start">
+			<a class="navbar-item" href="../explore/explore.html">
+				Explore
+			</a>
+		
+			<a class="navbar-item">
+				My Account
+			</a>
+			</div>
+		
+			<div class="navbar-end">
+			<div class="navbar-item">
+				<div class="buttons">
+				<a class="button is-primary">
+					<strong>Sign up</strong>
+				</a>
+				<a class="button is-light">
+					Log in
+				</a>
+				</div>
+			</div>
+			</div>
+		</div>
+		</nav>
+<div class="footer"> </div>
+
+<div id="chartdiv"></div>
+<script src="https://www.amcharts.com/lib/4/core.js"></script>
+<script src="https://www.amcharts.com/lib/4/maps.js"></script>
+<script src="https://www.amcharts.com/lib/4/geodata/worldLow.js"></script>
+<script src="https://www.amcharts.com/lib/4/themes/animated.js"></script>
+<script type="text/javascript" src="homeglobe.js"></script>
+
+<div id="signi">
+	<div class="box">
+			<h1 class="title is-4">Sign in</h1>
+			<div class="field">
+				<label class="label">Username:</label>
+				<div class="control has-icons-left has-icons-right">
+					<input class="input" type="text" placeholder="Username">
+					<span class="icon is-small is-left">
+						<i class="fas fa-user"></i>
+					</span>
+					<span class="icon is-small is-right">
+						<i class="fas fa-check"></i>
+					</span>
+				</div>
+				<!-- <p class="help is-success">This username is available</p> -->
+			</div>
+			<div class="field">
+				<label class="label">Password:</label>
+				<div class="control has-icons-left has-icons-right">
+					<input class="input" type="text" placeholder="Password">
+					<span class="icon is-small is-left">
+						<i class="fas fa-user"></i>
+					</span>
+					<span class="icon is-small is-right">
+						<i class="fas fa-check"></i>
+					</span>
+				</div>
+				<!-- <p class="help is-success">This username is available</p> -->
+			</div>
+			<button class="button is-link">Submit</button>
+			<article class="message is-danger is-small">
+					<div class="message-body">
+							Username or Password does not match.
+					</div>
+			</article>
+	</div>
+	</div>
+<div id="signup">
+	<div class="box">
+			<h1 class="title is-4">Signup</h1>
+			<div class="field">
+				<label class="label">Username:</label>
+				<div class="control has-icons-left has-icons-right">
+					<input class="input" type="text" placeholder="Username">
+					<span class="icon is-small is-left">
+						<i class="fas fa-user"></i>
+					</span>
+					<span class="icon is-small is-right">
+						<i class="fas fa-check"></i>
+					</span>
+				</div>
+				<!-- <p class="help is-success">This username is available</p> -->
+			</div>
+			<div class="field">
+				<label class="label">Password:</label>
+				<div class="control has-icons-left has-icons-right">
+					<input class="input" type="text" placeholder="Password">
+					<span class="icon is-small is-left">
+						<i class="fas fa-user"></i>
+					</span>
+					<span class="icon is-small is-right">
+						<i class="fas fa-check"></i>
+					</span>
+				</div>
+				<!-- <p class="help is-success">This username is available</p> -->
+			</div>
+			<div class="field">
+					<label class="label">Email:</label>
+					<div class="control has-icons-left has-icons-right">
+						<input class="input" type="text" placeholder="Email:">
+						<span class="icon is-small is-left">
+							<i class="fas fa-user"></i>
+						</span>
+						<span class="icon is-small is-right">
+							<i class="fas fa-check"></i>
+						</span>
+					</div>
+					<!-- <p class="help is-success">This username is available</p> -->
+				</div>
+			<button class="button is-link">Submit</button>
+			<article class="message is-danger is-small">
+					<div class="message-body">
+							Cannot delete admin
+					</div>
+			</article>
+	</div>
+</div>
+
+<script type="text/javascript" src="LogIn.js"></script>
+
+<footer class="footer">
+	<div class="content has-text-centered">
+		Click any marker on the globe for more details
+	</div>
+  </footer>
+</body>
+</html>

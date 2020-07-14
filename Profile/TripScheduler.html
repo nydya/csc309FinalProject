@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Profile</title>
+		<link rel="stylesheet" type="text/css" href="TripScheduler.css">
+	</head>
+	<body>
+		<div id="header">
+			<img class='curLogo' src="logo.png" />
+			<a id ="signiu" style="color:black" href="../home/homeglobe.html"> <b> Log in </b> Sign up </a>
+		</div>
+		<div id="topNavBar">
+			<ul>
+				<li> <a class="navButton" href="../home/homeglobe.html">Home</a> </li>
+				<li> <a class="navButton" href="../explore/explore.html">Explore</a> </li>
+			</ul>
+		</div>
+		<div id="backImg"></div>
+		<div id="profilePage">
+			<div id="profilePic"><img class='profImg' src='No4.jpg'> </div>
+			<p id="username"> Username</p>
+			<div id="sideBar"> 
+				<ul>
+					<li> <a class="sideOpt" href="Profile.html">My Profile</a> </li>
+					<li> <a class="sideOpt" href="TripScheduler.html">Trip Scheduler</a> </li>
+					<li> <a class="sideOpt" href="MyPlan.html">My Plans</a> </li>
+					<li> <a class="sideOpt" href="MyMomentos.html">Momentos</a> </li>
+				</ul>
+			</div>
+			<div id="dateSelect">
+				<p> Select Timer Period</p>
+				<label for="start">Start date:</label>
+				<input type="date" id="start" name="trip-start" value="2018-07-22" min="2018-01-01" max="2018-12-31"><br>
+				<br>
+				<label for="end">End date:</label>
+				<input type="date" id="end" name="trip-end" value="2018-07-22" min="2018-01-01" max="2018-12-31"><br>
+				
+				<p></p>
+			</div>
+			<div id="destSelect">
+				<p> Select Destinations and Minimum Length of Stay</p>
+				 <fieldset>
+					<legend>Please select destinations for the trip</legend>
+					<!-- Get list of saved destinations from user data in server  -->
+					<input type="checkbox" name="Destination" value="Toronto" /><label for="Toronto">Toronto</label>
+					<input class='stayLength' type="text" placeholder="Length of Stay">
+					<br>
+					<input type="checkbox" name="Destination" value="New York"  /><label for="New York">New York</label>
+					<input class='stayLength' type="text" placeholder="Length of Stay">
+					<br>
+					<input type="checkbox" name="Destination" value="Montreal" /><label for="Montreal">Montreal</label>
+					<input class='stayLength' type="text" placeholder="Length of Stay">
+					<br>
+				</fieldset>
+			</div>
+			<div id ="buttonFormat"> 
+				<form action="currentPlan.html">
+					<input id='submitPlan' type="submit" value="Plan My Trip">
+				</form>
+				<div id ="errorTxt">
+					<h2>Instructions:</h2>
+					<p>1. Select the start date of the trip.</p>
+					<p>2. Select the end date of the trip.</p>
+					<p>3. check the destinations of this trip.</p>
+					<p>4. enter the minimal length stay at the destinations.</p>
+					<p>5. click on Plan My Trip.</p>
+				</div>
+			</div>
+		</div>
+		
+	</body>
+</html>

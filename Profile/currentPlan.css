@@ -1,0 +1,197 @@
+body {
+	height: 100%;
+	background-color: white;
+	margin: 0;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+
+html {
+	height: 100%;
+}
+
+.curLogo {
+	width: 210px; 
+	position: relative;
+}
+
+p {
+	margin: 20px;
+	margin-left: 0px;
+}
+
+h2{
+	font-size:400%;
+}
+
+h1 {
+	font-size: 250%;
+	color: white;
+	margin: 0px 10px; 
+	display:inline;
+	position: relative;
+	top: 7px;
+}
+
+#signiu {
+	margin-top: 20px;
+	margin-right: 10px;
+	display:inline;
+	float: right;
+	font-size:90%
+}
+
+#header {
+	background-color: gray;
+	height: 8%;
+}
+
+#topNavBar {
+	background-color: black;
+	height: 4%;
+}
+
+#topNavBar ul {
+	padding: 5px;
+	margin: 0px;
+}
+
+#topNavBar ul li {
+	list-style: none; /* No bullet points */
+	display: inline;
+}
+
+#backImg {
+	background-image: url("x.jpg");
+	
+	height: 88%;
+	
+	filter: blur(8px);
+	
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#profilePage {
+	background-color: white;
+	border-radius: 25px;
+	font-weight: bold;
+	/*white 3px solid border*/
+	border: 3px solid #f1f1f1;
+	position: absolute;
+	top: 20%;
+	left: 10%;
+	padding: 20px;
+	
+	height:65%;
+	width:80%;
+}
+
+#profilePic {
+	position:absolute;
+	margin-left: 10px;
+	margin-top: 20px;
+	
+}
+
+#username {
+	position:absolute;
+	margin-left: 70px;
+	margin-top: 230px;	
+}
+
+#sideBar {
+	position:absolute;
+	margin-left: 10px;
+	margin-top: 270px;
+	
+}
+
+#sideBar ul li{
+	margin-bottom: 30px;
+	list-style-type: none;
+}
+
+.sideOpt{
+	color:black;
+	font-size: 150%;
+	text-decoration: none;
+}
+
+.profImg {
+	border-radius: 50%;
+	width:200px;
+	border: solid white;
+}
+
+.navButton {
+	text-decoration: none;
+	padding: 10px;
+	margin-left: 20px;
+	color: white;
+}
+
+.navButton:hover  {
+	color: Gold;
+	text-decoration: none;
+	padding: 10px;
+}
+
+.button1:hover {
+  box-shadow: 0 8px 10px 0 rgba(0,0,0,0.24), 0 10px 35px 0 rgba(0,0,0,0.19);
+}
+
+#titlep{
+	position:absolute;
+	margin-left: 19%;
+}
+
+#titlet{
+	font-size:200%;
+}
+
+#timeframe{
+	margin-left: 20%;
+	margin-top:5%;
+	background-color:teal;
+	text-align:center;
+}
+
+#cityList{
+	margin-left: 20%;
+	height:12%;
+	background-color:teal;
+	text-align:center;
+}
+#visitDays{
+	margin-left: 20%;
+	height:4%;
+	background-color:teal;
+}
+#todoAndRec{
+	margin-left: 20%;
+	height:50%;
+	margin-top:2%;
+	background-color:teal;
+	padding:1%;
+}
+
+.singleCity{
+	display:inline-block;
+	background-color:white;
+	height:100%;
+	width: 18%;
+}
+.output{
+	background-color:teal;
+}
+.stays{
+	display:inline;
+	margin-left: 10%;
+}
+
+#saveAs{
+	position:absolute;
+	margin-left:88%;
+	margin-top:20.5%;
+}

@@ -1,0 +1,30 @@
+#signi {
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	z-index: 11;
+	height:50%;
+	width:15%;
+}
+
+#signup {
+	position: absolute;
+	top: 25%;
+	left: 67%;
+	z-index: 11;
+	height:50%;
+	width:15%;
+}
+
+#errorTxt {
+	top: 82%;
+	left: 50%;
+	position: absolute;
+	font-size: 100%;
+	color: red;
+	background-color: white;
+}
+
+.message {
+	display: none;
+}

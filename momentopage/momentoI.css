@@ -1,0 +1,113 @@
+body, html{
+    height: 100%;
+    margin: 0px;
+}
+
+#header{
+    z-index: 3;
+    height: 50px;
+    width: 100%;
+    margin: 0px;
+    box-shadow: 1px 1px 7px #000;
+    background-color: #5f5f5f;
+}
+
+#route{
+    padding-top: 9px; 
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    color: whitesmoke;
+}
+
+.hA{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.hA:hover{
+    color: #3273dc;
+}
+
+#whole{
+    display: block;
+}
+
+.picContainer{
+    height: 587.33px;
+}
+
+.wholeHeader{
+    color:white;
+    position: absolute;
+    font-size: 128px;
+    text-shadow: 1px 1px #000;
+    left: 20%;
+    top: 20%;
+}
+.wholePic{  
+    width: 100%;
+    height: 100%;
+
+}
+
+.dText{
+    margin-right: 90px;
+    padding-left: 25%;
+    height: 100%;
+    min-height: 300px;
+}
+
+.textB{
+    display: none;
+    padding-left: 25%;
+    min-height: 300px;
+}
+
+
+.leftBar{
+    width: 25%;
+    float: left;
+}
+.nameIcon{
+    margin: 30px;
+}
+
+.cityName{
+    font-size: 48px;
+    position: relative;
+    left: 35px;
+    margin-bottom: 0px;
+}
+
+.iconM {
+	border-radius: 50%;
+	width: 200px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+textarea{
+    color: #000;
+}
+
+#saveButton{
+    display: none;
+    position: relative;
+    left: 50%;
+    padding: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+}
+
+#edit{
+    position: absolute;
+    left: 92%;
+}
+
+#emptyE{
+    position: relative;
+    left: 80%;
+}
